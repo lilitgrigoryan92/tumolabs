@@ -14,18 +14,17 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:purple;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color:purple;}
 
 .App-link {
-  color: #61dafb;
+  color: purple;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +34,175 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation{
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+  list-style:none;
+  margin:0;
+  background: purple;
+}
+
+.navigation a{
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover{
+  background:rgb(15, 87, 95);
+}
+
+  @media all and(max-width:800px){
+      .navigation{
+          justify-content:space-around;
+      }
+
+  }
+
+  @media all and(max-width:600px){
+      .navigation{
+flex-flow:column wrap;
+padding:0;
+
+}
+.navigation a {
+  text-align:center;
+  padding:10px;
+  border-top:1px solid rgba(255,255,255,0.3);
+  border-bottom:1px solid purple;
+}
+
+.navigation li:last-of-type a {
+  border-bottom:none;
+}
+}
+
+  body{
+      background-color:rgb(221, 182, 221);
+      
+  }
+
+  
+body{
+
+  padding:1rem;
+  background-color: rgb(186, 144, 186);
+  font-family: "lato"sans-serif;
+}
+
+.read-more-container{
+  display:flex;
+  flex-direction: column;
+  color:purple;
+  gap: 1rem;
+}
+
+.container{
+
+  padding:2rem;
+  background-color: plum;
+  border-radius: 2px;
+  line-height: 1rem;
+  box-shadow: 00 1rem rgb(175, 102, 175);
+}
+
+.read-more-btn{
+  color:purple;
+}
+
+.read-more-text{
+  display:none;
+}
+
+.read-more-text--show{
+  display:inline;
+}
+
+
+
+
+
+ body{
+  margin: 0;
+  padding:0;
+
+  background: grey;
+}
+
+.slidershow{
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.navigation{
+  position: absolute;
+  bottom:20px;
+  left:50%;
+  transform: translateX(-50%);
+  display:flex;
+}
+
+.bar{
+  width: 50px;
+  height: 10px;
+  border:2px solid #fff;
+  margin: 6px;
+  cursor:pointer;
+  transition: 0.4s;
+}
+
+.bar:hover{
+background: #fff
+}
+
+input[name='r']{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display:flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img{
+  width: 100%;
+  height:100%;
+}
+
+#r1:checked~ .s1{
+  margin-left: 0;
+}
+
+#r2:checked~ .s1{
+  margin-left: -20%;
+}
+#r3:checked~ .s1{
+  margin-left: -40%;
+}
+#r4:checked~ .s1{
+  margin-left: -60%;
+}
+#r5:checked~ .s1{
+  margin-left: -80%;
 }
