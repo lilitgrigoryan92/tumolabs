@@ -15,14 +15,10 @@ We are ...
 Student Focused
 It might seem obvious, but we are the organisation on TUMO Labs that can truly, always put students first.
  Let’s not forget that.
-Fun
-We want to enjoy the things we do, and we should all have fun while we’re doing it.
-Brave
-We should step out of our comfort zone and try new things – even if it might be a bit risky and fail.
-Welcoming
-We have our arms open wide to any student, no matter your background, culture, viewpoint or needs.
-Empowering
-It’s not always about fixing student problems, we should be helping you to fix your own problems.
+Fun-We want to enjoy the things we do, and we should all have fun while we’re doing it.
+Brave-We should step out of our comfort zone and try new things  even if it might be a bit risky and fail.
+Welcoming-We have our arms open wide to any student, no matter your background, culture, viewpoint or needs.
+Empowering-It’s not always about fixing student problems, we should be helping you to fix your own problems.
 
 </h5>
 
